@@ -89,5 +89,5 @@ tape("axisLeft.scale(nonNumericRangeScale)(selection) produces the expected resu
 });
 
 function file(file) {
-  return fs.readFileSync(path.join(__dirname, file), "utf8").replace(/\n\s*/mg, "");
+  return fs.readFileSync(path.join(__dirname, file), "utf8").replace(/[\n\r]\s*/mg, "");
 }
