@@ -1,5 +1,7 @@
 # d3-axis
 
+[![Build Status](https://dev.azure.com/d3/d3/_apis/build/status/d3.d3-axis)](https://dev.azure.com/d3/d3/_build/definition?definitionId=7)
+
 The axis component renders human-readable reference marks for [scales](https://github.com/d3/d3-scale). This alleviates one of the more tedious tasks in visualizing data.
 
 ## Installing
